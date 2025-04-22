@@ -47,6 +47,10 @@ app.post("/submit",(req, res) => {
     })
 })
 
+app.get('/',(req,res)=>{
+    res.send("hello")
+})
+
 app.listen(4000,()=>{
     console.log("server is running on port 4000");
 })
