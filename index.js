@@ -1,4 +1,3 @@
-import fs from "node:fs";
 import express from "express"
 import cors from "cors"
 
